@@ -1,0 +1,85 @@
+
+/* //////////////////// FOOTER CARO GARCÍA ////////////////////////// */
+
+#footer .footer-widgets-section {
+    background-color: #00a7b8;
+}
+
+.footer-widgets-section {
+    padding: 45px 0;
+}
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+
+.footer-section {
+    background: #B7B7B7;
+    color: #ffffff;
+   /* color: #c9c9c9; */
+    font-size: 14px;
+    font-weight: 200;
+    
+}
+
+.footer-copyright-section {
+    border-top: 0px solid #333333;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.widget_nav_menu li.menu-item {
+    margin: 0 0 15px 0;
+}
+
+
+
+
+
+.widget ul {
+    padding: 0px;
+    list-style: none;
+}
+
+ul, ol {
+    margin-bottom: 20px;
+}
+
+.footer-widgets ul li a {
+    color: #f7f7f7;
+  
+}
+
+.footer-widgets ul li:hover a, .footer-section a:hover {
+    color: #723e98;
+}
+
+
+
+#footer .footer-copyright-section {
+    background-color: #6d6e71;
+}
+
+
+
+
+/*
+
+.footer {
+    background-color: #00a7b8;
+    color: #ffffff;
+}
+
+
+.text-muted {
+    color: #ffffff !important;
+    
+}
+
+*/
+
+/* //////////////////// FOOTER CARO GARCÍA ////////////////////////// */

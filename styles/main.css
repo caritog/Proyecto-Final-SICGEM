@@ -1,3 +1,32 @@
+/* //////////////////// HEADER CARO GARCÍA ////////////////////////// */
+
+a {
+    padding: 0 !important;
+}
+
+.facebook .fab {
+    color: #3b5998;
+    font-size: 3rem;
+    margin: 5px;
+}
+
+.facebook .fab:hover {
+    color: #723e98;
+}
+
+.twitter .fab {
+    color: #00acee;
+    font-size: 3rem; 
+    margin: 5px;
+}
+
+.twitter .fab:hover {
+    color: #723e98;
+}
+
+
+/* //////////////////// HEADER CARO GARCÍA ////////////////////////// */
+
 
 /* //////////////////// FOOTER CARO GARCÍA ////////////////////////// */
 

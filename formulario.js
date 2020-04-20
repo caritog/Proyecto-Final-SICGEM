@@ -1,4 +1,12 @@
-(function () {
+function comprobar(checkbox){
+    otro = checkbox.parentNode.querySelector("[type=checkbox]:not(#" + checkbox.id + ")");
+ 
+    if (otro.checked){
+        otro.checked = false;
+    }
+}
+
+/* (function () {
 
     var formulario = document.formulario_registro,
         elementos = formulario.elements;
@@ -126,3 +134,5 @@
     }
 
 }())
+
+*/

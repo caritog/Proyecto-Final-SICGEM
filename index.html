@@ -33,27 +33,60 @@
             <li class="nav-item">
               <a class="nav-link" href="#"><small>CUENTA CON NOSOTRAS</small></a>
             </li>
+           
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false"><small>REGÍSTRATE </small>
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#" id="open"><small>MUJER</small></a>
-                <a class="dropdown-item" href="https://www.medellin.gov.co/sicgem_war/app/#/registeraspartner?clean"><small>ALIADO</small></a>
+              </a>             
+              <div id="openModal" class="dropdown-menu texts" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#" id="open"><small>MUJER</small></a>              
+                <a class="dropdown-item" href="#" id="open"><small>ALIADO</small></a>
               </div>
-              <div class="invisible">------</div>
+              <div class="invisible">---------------------------------------</div>
             <li class="nav-item">
               <a class="nav-link" style="background-color: rgb(198, 164, 230);" href="https://www.medellin.gov.co/sicgem_war/app/#/feminicide-survey?clean"><small>¿ESTOY EN RIESGO?</small></a>
-            </li>
-            <div class="invisible">-------------</div>
-            <li>
-            <button type="button" class="btn btn-light"><small>BUSCAR</small></button>  
-          </li>
+            </li>           
           </ul>
         </div>
       </nav>
+      <!--
+      <div id="myModal" class="modal">
+        <form id="flex" class="flex">
+            <div class="modalContent">
+                <div class="modal-header flex">
+                    <div id="survey-form">
+                        <div class="form__group">
+                            <label class="name__label" for="name">Nombre Completo <span class="obligate">*</span></label>
+                            <input type="text" name="name" id="name" class="form-control" placeholder="Nombre Apellido" required="">                    
+                            <span id="close" class="close">&times; </span>
+                        </div>  
+                     
+                        <div class="form__group">
+                            <label class="email__label" for="email">Correo electrónico <span class="obligate">*</span></label>
+                            <input type="email" name="email" id="email" class="form-control" placeholder="example@gmail.com" required="">
+                        </div>
+                        <div class="form__group">
+                            <label class="number__label" for="number">Teléfono <span class="obligate">*</span></label>
+                            <input type="tel" name="teléfono" id="telefono" maxlength="10" class="form-control" placeholder="Ej:123456789" required="">
+                        </div>
+                        <div class="form__group">
+                            <label class="option__label">Género <span class="obligate">*</span></label>
+                            <select name="select" id="options" required="">
+                                <option value="1">Mujer</option>
+                                <option value="2">Hombre</option>
+                                <option value="2">Reservado</option>
+                            </select>
+                        </div>                    
+                        <button type="submit" id="submit" class="submit-button">Enviar</button>                    
+                </div>
+            </div>
+        </form>
+    </div>
+    -->
     </div> 
-   
+   <!--Mis scripts-->
+   <script src="nav.js"></script>
+    <!--Scrips bootstrap-->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>

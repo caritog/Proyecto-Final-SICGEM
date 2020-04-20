@@ -1,12 +1,32 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/main.css">
-    <title>Proyecto Final</title>
-</head>
-<body>
-       <!--///////////////////////////////////////// MODAL CARO ESCOBAR /////////////////////////////////////////////-->
-</body>
-</html>
+<div id="myModal" class="modal">
+    <form id="flex" class="flex">
+        <div class="modalContent">
+            <div class="modal-header flex">
+                <div id="survey-form">
+                    <div class="form__group">
+                        <label class="name__label" for="name">Nombre Completo <span class="obligate">*</span></label>
+                        <input type="text" name="name" id="name" class="form-control" placeholder="Nombre Apellido" required="">                    
+                        <span id="close" class="close">&times; </span>
+                    </div>  
+                 
+                    <div class="form__group">
+                        <label class="email__label" for="email">Correo electrónico <span class="obligate">*</span></label>
+                        <input type="email" name="email" id="email" class="form-control" placeholder="example@gmail.com" required="">
+                    </div>
+                    <div class="form__group">
+                        <label class="number__label" for="number">Teléfono <span class="obligate">*</span></label>
+                        <input type="tel" name="teléfono" id="telefono" maxlength="10" class="form-control" placeholder="Ej:123456789" required="">
+                    </div>
+                    <div class="form__group">
+                        <label class="option__label">Género <span class="obligate">*</span></label>
+                        <select name="select" id="options" required="">
+                            <option value="1">Mujer</option>
+                            <option value="2">Hombre</option>
+                            <option value="2">Reservado</option>
+                        </select>
+                    </div>                    
+                    <button type="submit" id="submit" class="submit-button">Enviar</button>                    
+            </div>
+        </div>
+    </form>
+</div> 

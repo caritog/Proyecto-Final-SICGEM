@@ -1,4 +1,4 @@
-*{
+ *{
     margin: 0;
     padding: 0;
     -webkit-box-sizing: border-box;
@@ -41,6 +41,7 @@ form {
     background-color: rgba(77, 1, 77, 0.7); 
     color: #ffffff;
 }
+
 
 
 /*
@@ -183,4 +184,4 @@ form {
         .contenedor-formulario .formulario input[type="submit"]:hover {
           background: #1976D2; }
   
-          */
+        */

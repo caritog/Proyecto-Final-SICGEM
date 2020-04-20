@@ -1,0 +1,244 @@
+/*           estilos CSS header Julieth         */ 
+:root{
+    --verde-oscuro:#009688;
+    --verde-claro:#B2DFDB;
+    --blanco: #ffffff;
+    --negro: #000000;
+    --gris-oscuro: #54585a;
+    --gris-claro: #b8b8b9;
+    --gris-de-fondo: #f1f1f1;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    --normal: 12px;
+}
+
+
+.container-equipo {
+    margin: 1rem;
+    padding: 1rem;
+}
+h1, h3, h4 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+h1{
+    font-size: 24px;
+    align-items: center;
+    text-align: center;   
+    color:var(--verde-oscuro);
+}
+
+h2 {
+    font-size: 22px;
+    align-items: center;
+    text-align: center;   
+    color:var(--verde-oscuro);
+}
+
+h3 {
+    font-size: 20px;
+    padding-top: 10px;
+}
+p {
+    font-size: 16px;
+    align-items: center;
+    display:inline-block; 
+    text-align: center;    
+}
+
+.container-descripcion { 
+    background-color: #b8b8b9;
+}
+
+.container-descripcion h3{
+    color:var(--verde-oscuro);
+}
+
+.icon-container i{
+    color:var(--verde-oscuro);
+}
+
+
+/*Small devices (landscape phones, 767.98px and up)*/
+@media (max-width: 767.98px) { 
+    .header{    
+        height: 421px;
+        background-image: url("https://lh3.googleusercontent.com/FjBozaY1ND2irlIY1qydEU9dCJJPHOGmwJsx98E_9wrdzfsa2fRZAOealddtO05BaiRL8I-YvNs7qYyFbFA85j22yk7UiGNaWc8n93mzxmVdyxLeXL4XqKSzUsZj3Fn3X0E5PmPuBOBdDwuV1mDPbG1zxWSfq5ZRk9oxBMHRwloA17YusmlS_GJLT4SQyzao55D8nqneGcjzCl-MuqRLD6pzySGLXAtMWq5QxTc-QqgDs-ecNqx1x7VqzLZn72Kg-CREjTJs59WbfBbBk35TtBG_n8HX9vC7SIlh3I27dcCFzobWwKIWUUSKEf87OMXbfp3RgxPpdehBk1Su-ND1QtUl3iplnANj1bxNoPxav3HVkdooG5bbEfjaCyV6MHTpfrT9Tp0EbBKU3Fy-Aevej4kcmD6F4dujao5dCZUDYp8ICT9yPZCkq0ph5LVh8aN7XfqgW88n73R4DsSDJS-FLWo7DfKzbuchFrMTN4bww9glg49rxk9Uwe1oAGdbgwpcf-dnyDVVt8dir9_5HMs6sD_CAtPZzyLNUz_O_e4nCbXJEqO_X1Zs1iBxwxTtHG08XyIMo5JNzgFroX_6aGkcXdisAGlD3qoTsNDkUEW5KGsz1GiMhbvmXp3EPQJ0aLLS2XBZHVbak0b73V_eMUcSO7sS4TYJpKn-8-i5L3aOY3utWfjPlbJK8FPt5LqVzDHPIQZOp_zxhLfUVLnzjvqViBqL6zypCZbrAlkJq0YS5MbBSn7S4w=w1410-h550-no");
+        background-size: cover;
+        background-repeat: no-repeat;  
+        background-attachment: fixed;
+        margin-bottom: 30px;
+    }
+    #links{
+        background-color:var(--verde-claro)!important ;
+        opacity: 0.9;
+        color:white;
+        text-align: center;
+    }
+    
+    #name{
+        
+        text-align: center;
+    }
+    .text{
+        margin-left: 0 !important;
+    }    
+    .nav-link{
+        padding:0.5rem 0.5rem !important;
+    }
+    .nav-3{
+        margin-right: 0px !important;
+    }
+    .nav{
+        display:flex !important;
+        justify-content: center !important;
+    }   
+
+    #comentario-imagen h1{
+        background-color: var(--blanco);
+        width: 80vw;
+        font-size: 18px;
+        padding: 15px 15px 15px 15px;
+        /*margin: 0 15px 0 15px !important;*/
+        font-family: 'Opne Sans',sans-serif;
+        position: relative;
+        top:300px;
+        left:10vw;
+        background-color:white;opacity: 0.9;          
+    }    
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .header{    
+        height: 421px;
+        background-image: url("https://lh3.googleusercontent.com/FjBozaY1ND2irlIY1qydEU9dCJJPHOGmwJsx98E_9wrdzfsa2fRZAOealddtO05BaiRL8I-YvNs7qYyFbFA85j22yk7UiGNaWc8n93mzxmVdyxLeXL4XqKSzUsZj3Fn3X0E5PmPuBOBdDwuV1mDPbG1zxWSfq5ZRk9oxBMHRwloA17YusmlS_GJLT4SQyzao55D8nqneGcjzCl-MuqRLD6pzySGLXAtMWq5QxTc-QqgDs-ecNqx1x7VqzLZn72Kg-CREjTJs59WbfBbBk35TtBG_n8HX9vC7SIlh3I27dcCFzobWwKIWUUSKEf87OMXbfp3RgxPpdehBk1Su-ND1QtUl3iplnANj1bxNoPxav3HVkdooG5bbEfjaCyV6MHTpfrT9Tp0EbBKU3Fy-Aevej4kcmD6F4dujao5dCZUDYp8ICT9yPZCkq0ph5LVh8aN7XfqgW88n73R4DsSDJS-FLWo7DfKzbuchFrMTN4bww9glg49rxk9Uwe1oAGdbgwpcf-dnyDVVt8dir9_5HMs6sD_CAtPZzyLNUz_O_e4nCbXJEqO_X1Zs1iBxwxTtHG08XyIMo5JNzgFroX_6aGkcXdisAGlD3qoTsNDkUEW5KGsz1GiMhbvmXp3EPQJ0aLLS2XBZHVbak0b73V_eMUcSO7sS4TYJpKn-8-i5L3aOY3utWfjPlbJK8FPt5LqVzDHPIQZOp_zxhLfUVLnzjvqViBqL6zypCZbrAlkJq0YS5MbBSn7S4w=w1410-h550-no");
+        background-size: cover;
+        background-repeat: no-repeat;  
+        background-attachment: fixed;
+        margin-bottom: 45px;
+    }    
+    
+    #links{
+        background-color:var(--gris-oscuro) !important;
+        opacity: 0.;
+        color:white;
+        text-align: center;
+        } 
+
+    #comentario-imagen h1{
+        background-color: var(--blanco);
+        width: 441px;
+        font-size: 24px;
+        padding: 15px 30px 15px 30px;
+        font-family: 'Opne Sans',sans-serif;
+        position: relative;
+        top:300px;
+        left:10vw;
+        background-color:white;opacity: 0.9; 
+    }
+    }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px){ 
+    
+.header{    
+    height: 550px;
+    background-image: url("https://lh3.googleusercontent.com/FjBozaY1ND2irlIY1qydEU9dCJJPHOGmwJsx98E_9wrdzfsa2fRZAOealddtO05BaiRL8I-YvNs7qYyFbFA85j22yk7UiGNaWc8n93mzxmVdyxLeXL4XqKSzUsZj3Fn3X0E5PmPuBOBdDwuV1mDPbG1zxWSfq5ZRk9oxBMHRwloA17YusmlS_GJLT4SQyzao55D8nqneGcjzCl-MuqRLD6pzySGLXAtMWq5QxTc-QqgDs-ecNqx1x7VqzLZn72Kg-CREjTJs59WbfBbBk35TtBG_n8HX9vC7SIlh3I27dcCFzobWwKIWUUSKEf87OMXbfp3RgxPpdehBk1Su-ND1QtUl3iplnANj1bxNoPxav3HVkdooG5bbEfjaCyV6MHTpfrT9Tp0EbBKU3Fy-Aevej4kcmD6F4dujao5dCZUDYp8ICT9yPZCkq0ph5LVh8aN7XfqgW88n73R4DsSDJS-FLWo7DfKzbuchFrMTN4bww9glg49rxk9Uwe1oAGdbgwpcf-dnyDVVt8dir9_5HMs6sD_CAtPZzyLNUz_O_e4nCbXJEqO_X1Zs1iBxwxTtHG08XyIMo5JNzgFroX_6aGkcXdisAGlD3qoTsNDkUEW5KGsz1GiMhbvmXp3EPQJ0aLLS2XBZHVbak0b73V_eMUcSO7sS4TYJpKn-8-i5L3aOY3utWfjPlbJK8FPt5LqVzDHPIQZOp_zxhLfUVLnzjvqViBqL6zypCZbrAlkJq0YS5MbBSn7S4w=w1410-h550-no");
+    background-size: cover;
+    background-repeat: no-repeat;  
+    background-attachment: fixed;
+    margin-bottom: 45px;
+}    
+
+#comentario-imagen h1{
+    background-color: var(--blanco);
+    width: 441px;
+    font-size: 24px;
+    padding: 15px 30px 15px 30px;
+    font-family: 'Opne Sans',sans-serif;
+    position: relative;
+    top:432px;
+    left:10vw;
+    background-color:white;opacity: 0.9; 
+}
+#links{
+    background-color:var(--verde-oscuro);
+    opacity: 0.9;
+    color:white;
+    text-align: center;
+    }  
+}  
+
+#name{
+    background-color: var(--verde-oscuro);
+    opacity: 0.9;
+}
+.text{
+    margin-left: 45px;
+}
+#links{
+    background-color: var(--verde-oscuro);
+    opacity: 0.9;
+}
+.nav-link{
+    padding: 0.5rem 0.4rem;
+}
+.nav-3{
+    margin-right: 45px;
+}
+.footer{
+    border-top: 2px solid #b8b8b9;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+#links-footer li{
+    list-style: none; 
+    line-height:30px;
+    text-align:right;
+    font-size: 15px;
+    font-family: 'Open Sans';
+    color:#54585A;
+    
+}
+#nombre-equipo-peque{
+    font-size: 16px;
+    font-family: 'Open Sans';
+    color:#54585A;
+}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Rubik&display=swap');
+
+
+/*           estilos CSS header Julieth                            */ 
+
+
+
+
+
+
+
+
+
+/*           estilos CSS main Paola                                */ 
+
+
+
+
+/*           estilos CSS main Dubenis                                */ 
+
+
+
+
+/*           estilos CSS footer Julieth                             */ 
+
+
+                        
+
+
+
+
+

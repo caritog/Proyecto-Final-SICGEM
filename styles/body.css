@@ -1,0 +1,88 @@
+/* //////////////////// INICIO HEADER  ////////////////////////// */
+.img-responsive {
+    width: 50%;
+    height: 20%;
+    padding-left: 5rem;
+}
+
+.icons {
+    padding-right: 5rem;
+}
+
+.facebook-icon .fab {
+    color: #3b5998;
+    font-size: 2.2rem;
+    margin: 5px;
+}
+
+.facebook-icon .fab:hover {
+    color: #723e98;
+}
+
+.twitter-icon .fab {
+    color: #00acee;
+    font-size: 2.2rem; 
+    margin: 5px;
+}
+
+.twitter-icon .fab:hover {
+    color: #723e98;
+}
+
+/* //////////////////// FIN HEADER ////////////////////////// */
+
+
+/* //////////////////// INICIO NAV BAR ////////////////////////// */
+
+.navbar {
+    background-color:rgba(114, 62, 152, 0.9);
+}
+
+.riesgo {
+    color: rgb(255, 0, 0) !important;
+    font-weight: bolder;
+}
+
+/*style="background-color: rebeccapurple; */
+/*style=" color: red; font-weight: bold; border-radius: 0.25rem;" */
+
+/* //////////////////// FIN NAV BAR ////////////////////////// */
+
+
+/* //////////////////// INICIO BODY ////////////////////////// */
+
+.body3 {
+    background-color: rgba(114, 62, 152, 0.9);
+    color: white;
+}
+
+.fa-phone {
+    color: white;
+    font-size: 3.5rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.fa-truck {
+    color: white;
+    font-size: 3.5rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.fa-gavel {
+    color: white;
+    font-size: 3.5rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.fa-female {
+    color: white;
+    font-size: 3.5rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+
+/* //////////////////// FIN BODY ////////////////////////// */

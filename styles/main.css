@@ -36,6 +36,7 @@
 
 /*///////////////////  INICIO BODY MARIA ANTONIA /////////////////////////// */
 
+/*
 @media (min-width: 992px) {
     .title_container {
         background-color: rebeccapurple;
@@ -165,6 +166,9 @@
         border-radius: 20px;
         height: 100;
     }
+
+
+*/
     
 /*///////////////////  FIN BODY MARIA ANTONIA /////////////////////////// */
 
@@ -289,6 +293,7 @@ a, a.btn-link {
 
 /* //////////////////// FOOTER CARO GARCÍA ////////////////////////// */
 
+/*
 body {
     background-color: rebeccapurple;
 }.body_first {
@@ -362,4 +367,6 @@ body {
     width: 118;
 
 }
+
+*/
 /* //////////////////// FIN FOOTER CARO GARCÍA ////////////////////////// */

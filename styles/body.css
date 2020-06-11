@@ -35,8 +35,15 @@
 
 /* //////////////////// INICIO NAV BAR ////////////////////////// */
 
+/* background-color:rgba(114, 62, 152, 0.9); */
+
 .navbar {
     background-color:rgba(114, 62, 152, 0.9);
+}
+
+.dropdown-item:active {
+    background-color:rgba(114, 62, 152, 0.9);
+    color: white;
 }
 
 .riesgo {

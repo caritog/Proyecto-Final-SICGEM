@@ -4,24 +4,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!--  <script src="https://kit.fontawesome.com/cd2331958e.js" crossorigin="anonymous"></script>  -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/v4-shims.css">
-
-  <!-- <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
-    <link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet">
-    <link href="/your-path-to-fontawesome/css/solid.css" rel="stylesheet"> -->
-
   <link rel="stylesheet" href="/bootstrap/css/bootstrap.css">
-  <link rel="stylesheet" href="/styles/main.css">
+  <link rel="stylesheet" href="/styles/index.css">
   <link rel="stylesheet">
-  <title>Proyecto Final</title>
+  <title>Body</title>
 </head>
 
 <body>
-  <!--/////////////////////////////////////////// HEADER CARO GARCÍA //////////////////////////////////////////////-->
 
-  <div class=" d-flex flex-column flex-md-row align-items-center pt-4 pr-3 pl-3 pb-4 px-md-4   bg-white border-bottom box-shadow">
+  <!--/////////////////////////////////////////// HEADER //////////////////////////////////////////////-->
+
+  <div class="d-flex flex-column flex-md-row align-items-center pt-4 pr-3 pl-3 pb-4 px-md-4 bg-white border-bottom box-shadow">
     <img class="my-0 mr-md-auto font-weight-normal img-responsive standard-logo" src="/images/sicgem-logo.png"
       href="//www.medellin.gov.co/sicgem/" alt="SICGEM" width="" height="100">
     <a class="btn facebook-icon p-0" target="_blank" href="//www.facebook.com/AlcaldiadeMed/">
@@ -32,276 +27,420 @@
     </a>
   </div>
 
+  <!--////////////////////////////////////////// NAV BAR ///////////////////////////////////////////-->
 
-  <!--///////////////////////////////////////// NAV BAR CARO ESCOBAR /////////////////////////////////////////////-->
- 
-  <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light">
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+    <div class="container">
       <a class="navbar-brand" href="#"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07"
+        aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav justify-content-center">
+      <div class="collapse navbar-collapse" id="navbarsExample07">
+        <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="https://www.medellin.gov.co/sicgem/" target="_blank">INICIO</a>
+            <a class="nav-link" href="https://www.medellin.gov.co/sicgem/">INICIO <span
+                class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://www.medellin.gov.co/sicgem/?page_id=744">EQUIDAD DE GÉNERO</a>
+            <a class="nav-link" href="https://www.medellin.gov.co/sicgem/?page_id=744">EQUIDAD DE GÉNERO <span
+                class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://www.medellin.gov.co/sicgem/?page_id=1086">MEMORIAS</a>
+            <a class="nav-link" href="https://www.medellin.gov.co/sicgem/?page_id=1086">MEMORIAS <span
+                class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://www.medellin.gov.co/sicgem/?page_id=1088">ADMINISTRATIVO</a>
+            <a class="nav-link" href="https://www.medellin.gov.co/sicgem/?page_id=1088">ADMINISTRATIVO <span
+                class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">CUENTA CON NOSOTRAS</a>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">CUENTA CON NOSOTRAS <span class="sr-only">(current)</span></a>
           </li>
-
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">REGÍSTRATE</a>
-            <div id="openModal" class="dropdown-menu texts" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#" id="open">OPORTUNIDADES MUJER</a>
-              <a class="dropdown-item" href="#" id="open">INSTITUCIÓN ALIADA</a>
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown07" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">REGÍSTRATE</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown07">
+              <a class="dropdown-item" href="#">INSTITUCIÓN ALIADA</a>
+              <a class="dropdown-item" href="#">OPORTUNIDADES MUJER</a>
             </div>
-            <div class="invisible">-------------------------------</div>
-          <li class="nav-item">
-            <a class="nav-link" style="background-color: rebeccapurple; border-radius: 0.5rem; color: white;"
+          </li>
+          <li class="nav-item m3">
+            <a class="nav-link riesgo"
               href="https://www.medellin.gov.co/sicgem_war/app/#/feminicide-survey?clean">¿ESTOY EN RIESGO?</a>
           </li>
         </ul>
+        <form class="form-inline my-2 my-md-0">
+          <input class="form-control" type="text" style="width: 6rem;" placeholder="Buscar..." aria-label="Search">
+        </form>
       </div>
-    </nav>
+    </div>
+  </nav>
+
+ <!-- ///////////////////////////////////////// CAROUSEL ////////////////////////////////////// -->
+
+
+ <!--
+ <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+ 
+  <div class="carousel-inner">
+      <div class="carousel-item active" style="height: 100vh">
+          <img src="../images/composing-2391033_1920.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+              <h2>Tu lucha es nuestra lucha</h2>
+              <p>Constantemente se presentan casos de violencia de género, recuerda que tus derechos deben ser
+                  respetados.</p>
+              <h5>¡No guardes silencio, atrévete a denunciar!</h5>
+              <p>Recuerda que si eres testigo de agresión contra una mujer y no denuncias, te conviertes en
+                  cómplice.
+              </p>
+              <h5>¡No estás sola!</h5>
+              <p>Aquí encontrarás una luz de apoyo frente a lo que estás viviendo. ¡Juntas lo lograremos!.</p> -->
+              <!-- <p><a class="btn btn-lg btn-primary" href="#" role="button">Ver más</a></p> -->
+        
+ <!--    </div>
+      </div>
+  
   </div>
+ 
+</div>
+-->
 
-
-
-
-
-
-  <!--///////////////////////////////////////// BODY MARIA ANTONIA ///////////////////////////////////////////////-->
-
-  <section class="body_first">
-    <br>
-    <section class="title_container">
-      <h1 class="title">CUENTA CON NOSOTRAS</h1>
-    </section>
-    <section class="row mb-2">
-      <div class="col">
-        <h3 class="sub_title">ATENCIÓN DE EMERGENCIA A MUJERES EN RIESGO Y VÍCTIMAS DE VIOLENCIAS</h3>
-        <p class="text_p">Se realiza a través de la Línea 123 Mujer de la Alcaldía de Medellín
-          Ofrece información, orientación psicológica, intervención en crisis, asesoría jurídica, acompañamiento
-          jurídico telefónico y acompañamiento psicológico y social a mujeres mayores de 18 años y adolescentes en
-          riesgo o víctimas de violencia por parte de su pareja o ex pareja y a personas que alertan dichas
-          situaciones. La atención permite el acceso inmediato a los servicios de salud, protección y justicia.
-          Teléfono de contacto: 123 solicitando a la operadora comunicación con la Línea Mujer.
-          La atención se presta día y noche (24 horas) durante los 7 días de la semana.</p>
-      </div>
-      <div class="col"><img src="https://img2.rtve.es/i/?w=1600&i=1574356696649.jpg" alt="" width="700"></div>
-      </div>
-    </section>
-    <section class="topics">
-      <div class="row mb-2">
-        <div class="col">
-          <div class="card">
-            <br>
-            <h3 class="title_topics">PROPÓSITO</h3>
-            <p class="text_topics">Fortalecer los nexos comunicativos con las ciudadanas y los ciudadanos de
-              Medellín en perspectiva de género, buscando la eliminación de toda forma de violencia y
-              discriminación contra las mujeres y promoviendo su respeto y reconocimiento en todos los ámbitos
-              de la vida ciudadana.</p>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <br>
-            <h3 class="title_topics">OBJETIVO</h3>
-            <p class="text_topics">Las mujeres de Medellín, ejerciendo sus derechos en la vida social,
-              económica, académica, cultural y política de la ciudad con igualdad de oportunidades.</p>
-            <br>
-            <br>
-            <br>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card short_dates">
-            <br>
-            <br>
-            <br>
-            <h3 class="title_topics">3,642</h3>
-            <p class="text_topics">PERSONAS QUE SE ANIMARON A DENUNCIAR</p>
-            <br>
-            <br>
-            <br>
-            <br>
-          </div>
-        </div>
-      </div>
-    </section>
-  </section>
-  <section class="cols_container">
-    <h2 class="title_services">OBJETIVOS DE PROGRAMA</h2>
-    <div class="row mb-4">
-      <div class="col">
-        <h3 class="title">ATENCIÓN DE LA LINEA 123</h3>
-        <br>
-        <p>.</p>
-        <p class="text">Sabías que el año 2017, 3.642 mujeres en alto riesgo y víctimas de violencias basadas en
-          género, accedieron al sistema de atención y prevención de violencias, a través de la Línea 123
-          mujer, Hogares de Acogida y el Acompañamiento psico-jurídico en el territorio.</p>
-      </div>
-      <div class="col">
-        <h3 class="title">CENTRO MÓVIL DE EQUIDAD DE GENERO</h3>
-        <p>.</p>
-        <p class="text">La Secretaría de las Mujeres cuenta con un Centro Móvil de Equidad de Género, para la
-          prevención y atención de la violencia basada en el género, que llega a todos los barrios y veredas
-          del Municipio de Medellín, inclusive a los más apartados.</p>
-      </div>
-    
-      <!-- </div> --> 
-      <!-- <div class="row mb-3"> --> 
-     
-      <div class="col">
-        <h3 class="title">LA LEY 1257 DE 2008</h3>
-        <br>
-        <p>.</p>
-        <p class="text">La ley 1257 de 2008, garantiza para todas las mujeres una vida libre de violencia, el
-          ejercicio de los derechos reconocidos en el ordenamiento jurídico, el acceso a los procedimientos
-          administrativos y judiciales para su protección y atención, y la adopción de las políticas públicas
-          necesarias para su realización</p>
-      </div>
-      <div class="col">
-        <h3 class="title">VIOLENCIA CONTRA LAS MUJERES:</h3>
-        <p>.</p>
-        <p class="text">“Cualquier acción u omisión, que le cause muerte, daño o sufrimiento físico, sexual,
-          psicológico, económico o patrimonial por su condición de mujer, así como las amenazas de tales
-          actos, la coacción o la privación arbitraria de la libertad, bien sea que se presente en el ámbito
-          público o en el privado”. Ley 1257 del 4 de diciembre de 2008. Artículo 2°</p>
-      </div>
-    </div>
-  </section>
-
-
-
-  <!--///////////////////////////////////////// FOOTER CARO GARCÍA ///////////////////////////////////////////////-->
-
-  <div id="footer" class="footer-section">
-    <div class="footer-inner-wrapper">
-        <div id="footer-widgets-container" class="footer-widgets-section">
-            <div class="container">
-                <div class="tpath-row row">
-                    <div id="footer-widgets-1" class="footer-widgets col-sm-4">
-                        <div id="text-2" class="widget widget_text">
-                            <div class="textwidget">
-                                <img src="/images/sicgem-logo-invertido.png" >
-                                <div class="footer-sicgem-logo"></div>
-                            </div>
-                        </div>
-                        <div id="text-3" class="widget widget_text">
-                            <div class="textwidget">
-                                <div class="contact_info-inner">
-                                    <p class="email_1">
-                                        <span class="contact-widget-title footer-white-text">Email: </span>
-                                        <span class="contact-widget-text">
-                                            <a href="mailto:comunicaciones.mujeres@medellin.gov.co">
-                                                comunicaciones.mujeres@medellin.gov.co
-                                            </a>
-                                        </span>
-                                    </p>
-                                    <p class="telephone">
-                                        <span class="contact-widget-title footer-white-text">Teléfono:</span>
-                                        <span class="contact-widget-text footer-white-text">(574)3855424</span>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="tpath_social_links_widget-widget-2" class="widget tpath_social_links_widget">
-                            <ul class="tpath-social-icons widget-soc-icon">
-                                <li class="facebook">
-                                    <a target="_blank" href="//www.facebook.com/AlcaldiadeMed/">
-                                        <i class="fab fa-facebook"></i>
-                                    </a>
-                                </li>
-                                <li class="twitter">
-                                    <a target="_blank" href="//www.twitter.com/AlcaldiadeMed/">
-                                        <i class="fab fa-twitter"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div id="footer-widgets-2" class="footer-widgets col-sm-4">
-                        <div id="nav_menu-3" class="widget widget_nav_menu">
-                            <h3 class="widget-title">Mapa del sitio</h3>
-                            <div class="menu-mapa-del-sitio-container">
-                                <ul id="menu-mapa-del-sitio" class="menu">
-                                    <li id="menu-item-1079"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1079">
-                                        <a href="//www.medellin.gov.co/sicgem/?page_id=803">Noticias</a>
-                                    </li>
-                                    <li id="menu-item-1078"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1078">
-                                        <a href="//www.medellin.gov.co/sicgem/?page_id=1055">Publicaciones</a>
-                                    </li>
-                                    <li id="menu-item-1080"
-                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1080">
-                                        <a href="//www.medellin.gov.co/sicgem/?post_type=tribe_events">Eventos</a>
-                                    </li>
-                                    <li id="menu-item-1081"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1081">
-                                        <a href="//www.medellin.gov.co/sicgem/?page_id=363">Contacto</a>
-                                    </li>
-                                    <li id="menu-item-1207"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1207">
-                                        <a href="//www.medellin.gov.co/sicgem/?page_id=1202">Donde encontrarnos</a>
-                                    </li>
-                                    <li id="menu-item-1935"
-                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1935">
-                                        <a href="//www.medellin.gov.co/sicgem/?page_id=1930&amp;preview=true">Habeas Data</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="footer-widgets-3" class="footer-widgets col-sm-4">
-                        <div id="text-4" class="widget widget_text">
-                            <div class="textwidget"></div>
-                        </div>
-                        <div id="media_image-2" class="widget widget_media_image">
-                            <img width="254" height="171"
-                                src="//www.medellin.gov.co/sicgem/wp-content/uploads/2019/11/alcaldia-de-medellin.png"
-                                class="image wp-image-2652  attachment-full size-full" alt="" style="max-width: 100%; height: auto;">
-                        </div>
-                    </div>
-                </div><!-- .row -->
-            </div>
-        </div><!-- #footer-widgets-container -->
-    </div>
-
-    <div id="footer-copyright-container" class="footer-copyright-section">
-        <div class="container text-center">
-            <div class="tpath-row">
-                <div id="copyright-text" class="copyright-info">
-                    <p class="copy">Copyright 2020 by <a href="//www.medellin.gov.co/sicgem/">SICGEM</a></p>
-                </div><!-- #copyright-text -->
-            </div>
-        </div>
-    </div><!-- #footer-copyright-container -->
-    
-
+<div class="contenedor">
+  <img src="../images/composing-2391033_1920.jpg" class="img-fluid imagen-morada" alt="Responsive image">
+  <div class="texto-img">
+    <h2>¡NO ESTÁS SOLA!</h2>
+    <p class="lead font-weight-bold">Aquí encontrarás una luz de apoyo frente a lo que estás viviendo. ¡Juntas lo lograremos!.</p>
+    <h2>¡NO GUARDES SILENCIO, ATRÉVETE A DENUNCIAR!</h2>
+    <p class="lead font-weight-bold">Recuerda que si eres testigo de agresión contra una mujer y no denuncias, te conviertes en
+      cómplice.
+    </p>
+    <h2>TU LUCHA ES NUESTRA LUCHA</h2>
+    <p class="lead font-weight-bold">Constantemente se presentan casos de violencia de género, recuerda que tus derechos deben ser
+      respetados.</p>
+  </div>
 </div>
 
 
+<!--
+  
+  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+      <div class="carousel-item active" style="height: 100vh">
+          <img src="../images/composing-2391033_1920.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+              <h2>Tu lucha es nuestra lucha</h2>
+              <p>Constantemente se presentan casos de violencia de género, recuerda que tus derechos deben ser
+                  respetados.</p>
+               <p><a class="btn btn-lg btn-primary" href="#" role="button">Ver más</a></p> 
+            </div>
+          </div>
+          <div class="carousel-item" style="height: 100vh">
+              <img src="../images/summerfield-336672_1280.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                  <h5>¡No guardes silencio, atrévete a denunciar!</h5>
+                  <p>Recuerda que si eres testigo de agresión contra una mujer y no denuncias, te conviertes en
+                      cómplice.
+                  </p>
+                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>  
+              </div>
+          </div>
+          <div class="carousel-item" style="height: 100vh">
+              <img src="../images/sparkler-677774_1280.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                  <h5>¡No estás sola!</h5>
+                  <p>Aquí encontrarás una luz de apoyo frente a lo que estás viviendo. ¡Juntas lo lograremos!.</p>
+                   <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p> 
+              </div>
+          </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Siguiente</span>
+      </a>
+    </div>
 
-  <!--Sripts de Bootstrap-->
+ -->
+
+
+
+  <!-- /////////////////////////////////////////////// BODY PARTE 1 ////////////////////////////////////// -->
+
+  <section class="body1">
+    <br>
+    <div class="container marketing">
+      <article class="title_container text-center">
+        <h1 class="title">CUENTA CON NOSOTRAS</h1>
+      </article>
+      <hr class="featurette-divider">
+      <br />
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">ATENCIÓN DE EMERGENCIA
+            <span class="text-muted">A MUJERES EN RIESGO Y VÍCTIMAS DE VIOLENCIAS.</span>
+          </h2>
+          <p class="lead">Se realiza a través de la Línea 123, solicitando a la operadora comunicación con la Línea
+            Mujer
+            de la Alcaldía de Medellín, la cual ofrece información, orientación psicológica, intervención en crisis,
+            asesoría jurídica, acompañamiento jurídico telefónico y acompañamiento psicológico y social a mujeres
+            mayores
+            de 18 años y adolescentes en riesgo o víctimas de violencia por parte de su pareja o ex pareja y a personas
+            que alertan dichas situaciones. La atención permite el acceso inmediato a los servicios de salud, protección
+            y
+            justicia.
+          </p>
+          <p class="lead">La atención se presta día y noche (24 horas) durante los 7 días de la semana.</p>
+        </div>
+        <div class="col-md-5">
+          <img src="../images/hand2.jpg"
+            class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto mt-5 pt-4" width="500"
+            height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false"
+            role="img" aria-label="Placeholder: 500x500">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#eee" />
+        </div>
+      </div>
+      <hr class="featurette-divider">
+    </div>
+  </section>
+
+
+  <!-- /////////////////////////////////////////////// BODY PARTE 2 ////////////////////////////////////// -->
+
+  <section class="body2 container">
+    <br />
+    <div class=" row row-cols-1 row-cols-md-2 text-center">
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="../images/secretaria.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">PROPÓSITO</h5>
+              <p class="card-text">Fortalecer los nexos comunicativos con las ciudadanas y los ciudadanos de Medellín en
+                perspectiva de género, buscando la eliminación de toda forma de violencia y discriminación contra las
+                mujeres y promoviendo su respeto y reconocimiento en todos los ámbitos de la vida ciudadana.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">3,642</h5>
+              <br />
+              <p class="card-text">PERSONAS QUE SE ANIMARON A DENUNCIAR.</p>
+            </div>
+            <img src="../images/call.jpg" class="card-img-top" alt="...">
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="../images/reunion.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">OBJETIVO</h5>
+              <p class="card-text">Las mujeres de Medellín, ejerciendo sus derechos en la vida social, económica,
+                académica, cultural y política de la ciudad con igualdad de oportunidades.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+<!-- /////////////////////////////////////////////// BODY PARTE 3 ////////////////////////////////////// -->
+
+  <section class="body3">
+    <div class="container text-center mt-4">
+      <hr class="featurette-divider">
+      <article class="title_container text-center pt-4 pb-4">
+        <h2 class="title">OBJETIVOS DE PROGRAMA</h2>
+      </article>
+      <div class="row">
+        <div class="col-lg-3">
+          <i class="bd-placeholder-img rounded-circle fas fa-phone" width="140" height="140"
+            xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"
+            aria-label="Placeholder: 140x140">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em"></text>
+          </i>
+          <h3>Atención de la línea 123</h3>
+          <br />
+          <p>Sabías que el año 2017, 3.642 mujeres en alto riesgo y víctimas de violencias basadas en género, accedieron
+            al sistema de atención y prevención de violencias, a través de la Línea 123 mujer, Hogares de Acogida y el
+            Acompañamiento psico-jurídico en el territorio.</p>
+          <br />
+          <br />
+          <br />
+    
+        </div>
+        <div class="col-lg-3">
+          <i class="bd-placeholder-img rounded-circle fas fa-truck" width="140" height="140"
+            xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"
+            aria-label="Placeholder: 140x140">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em"></text>
+          </i>
+          <h3>Centro móvil de Equidad de Género</h3>
+          <br />
+          <p>La Secretaría de las Mujeres cuenta con un Centro Móvil de Equidad de Género, para la prevención y atención
+            de la violencia basada en el género, que llega a todos los barrios y veredas del Municipio de Medellín,
+            inclusive a los más apartados.</p>
+          <br />
+          <br />
+          <br />
+       
+        </div>
+        <div class="col-lg-3">
+          <i class="bd-placeholder-img rounded-circle fas fa-gavel" width="140" height="140"
+            xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"
+            aria-label="Placeholder: 140x140">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em"></text>
+          </i>
+          <h3>La ley 1257 de 2008<span class="invisible">...</span></h3>
+          <br />
+          <p>La ley 1257 de 2008, garantiza para todas las mujeres una vida libre de violencia, el ejercicio de los
+            derechos reconocidos en el ordenamiento jurídico, el acceso a los procedimientos administrativos y
+            judiciales
+            para su protección y atención, y la adopción de las políticas públicas necesarias para su realización</p>
+          <br />
+
+        </div>
+        <div class="col-lg-3">
+          <i class="bd-placeholder-img rounded-circle fas fa-female" width="140" height="140"
+            xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"
+            aria-label="Placeholder: 140x140">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em"></text>
+          </i>
+          <h3>Violencia contra las mujeres</h3>
+          <br />
+          <p>“Cualquier acción u omisión, que le cause muerte, daño o sufrimiento físico, sexual, psicológico, económico
+            o
+            patrimonial por su condición de mujer, así como las amenazas de tales actos, la coacción o la privación
+            arbitraria de la libertad, bien sea que se presente en el ámbito público o en el privado”. Ley 1257 del 4 de
+            diciembre de 2008. Artículo 2°
+          </p>
+     <!-- <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p> -->
+        </div>
+      </div>
+  </section>
+
+<!-- /////////////////////////////////////////////// FOOTER ////////////////////////////////////// -->
+
+  <div id="footer" class="footer-section">
+    <div class="footer-inner-wrapper">
+      <div id="footer-widgets-container" class="footer-widgets-section">
+        <div class="container">
+          <div class="tpath-row row">
+            <div id="footer-widgets-1" class="footer-widgets col-sm-4">
+              <div id="text-2" class="widget widget_text">
+                <div class="textwidget">
+                  <img src="/images/sicgem-logo-invertido.png">
+                  <div class="footer-sicgem-logo"></div>
+                </div>
+              </div>
+              <div id="text-3" class="widget widget_text">
+                <div class="textwidget">
+                  <div class="contact_info-inner">
+                    <p class="email_1">
+                      <span class="contact-widget-title footer-white-text">Email: </span>
+                      <span class="contact-widget-text">
+                        <a href="mailto:comunicaciones.mujeres@medellin.gov.co">
+                          comunicaciones.mujeres@medellin.gov.co
+                        </a>
+                      </span>
+                    </p>
+                    <p class="telephone">
+                      <span class="contact-widget-title footer-white-text">Teléfono:</span>
+                      <span class="contact-widget-text footer-white-text">(574)3855424</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div id="tpath_social_links_widget-widget-2" class="widget tpath_social_links_widget">
+                <ul class="tpath-social-icons widget-soc-icon">
+                  <li class="facebook">
+                    <a target="_blank" href="//www.facebook.com/AlcaldiadeMed/">
+                      <i class="fab fa-facebook"></i>
+                    </a>
+                  </li>
+                  <li class="twitter">
+                    <a target="_blank" href="//www.twitter.com/AlcaldiadeMed/">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div id="footer-widgets-2" class="footer-widgets col-sm-4">
+              <div id="nav_menu-3" class="widget widget_nav_menu">
+                <h3 class="widget-title">Mapa del sitio</h3>
+                <div class="menu-mapa-del-sitio-container">
+                  <ul id="menu-mapa-del-sitio" class="menu">
+                    <li id="menu-item-1079"
+                      class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1079">
+                      <a href="//www.medellin.gov.co/sicgem/?page_id=803">Noticias</a>
+                    </li>
+                    <li id="menu-item-1078"
+                      class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1078">
+                      <a href="//www.medellin.gov.co/sicgem/?page_id=1055">Publicaciones</a>
+                    </li>
+                    <li id="menu-item-1080"
+                      class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1080">
+                      <a href="//www.medellin.gov.co/sicgem/?post_type=tribe_events">Eventos</a>
+                    </li>
+                    <li id="menu-item-1081"
+                      class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1081">
+                      <a href="//www.medellin.gov.co/sicgem/?page_id=363">Contacto</a>
+                    </li>
+                    <li id="menu-item-1207"
+                      class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1207">
+                      <a href="//www.medellin.gov.co/sicgem/?page_id=1202">Donde encontrarnos</a>
+                    </li>
+                    <li id="menu-item-1935"
+                      class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1935">
+                      <a href="//www.medellin.gov.co/sicgem/?page_id=1930&amp;preview=true">Habeas Data</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div id="footer-widgets-3" class="footer-widgets col-sm-4">
+              <div id="text-4" class="widget widget_text">
+                <div class="textwidget"></div>
+              </div>
+              <div id="media_image-2" class="widget widget_media_image">
+                <img width="254" height="171"
+                  src="/images/alcaldia-de-medellin.png"
+                  class="image wp-image-2652  attachment-full size-full" alt="" style="max-width: 100%; height: auto;">
+              </div>
+            </div>
+          </div><!-- .row -->
+        </div>
+      </div><!-- #footer-widgets-container -->
+    </div>
+    <div id="footer-copyright-container" class="footer-copyright-section">
+      <div class="container text-center">
+        <div class="tpath-row">
+          <div id="copyright-text" class="copyright-info">
+            <p class="copy">Copyright 2020 by <a href="//www.medellin.gov.co/sicgem/">SICGEM</a></p>
+          </div><!-- #copyright-text -->
+        </div>
+      </div>
+    </div><!-- #footer-copyright-container -->
+  </div>
+
+
   <script src="/bootstrap/js/jquery-3.4.1.min.js"></script>
   <script src="/bootstrap/js/bootstrap.min.js"></script>
   <script src="/bootstrap/js/popper.min.js"></script>
 
 </body>
-
 </html>

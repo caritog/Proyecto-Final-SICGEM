@@ -38,11 +38,11 @@
 /* background-color:rgba(114, 62, 152, 0.9); */
 
 .navbar {
-    background-color:rgba(114, 62, 152, 0.9);
+    background-color:#723e98;
 }
 
 .dropdown-item:active {
-    background-color:rgba(114, 62, 152, 0.9);
+    background-color:#723e98;
     color: white;
 }
 
@@ -57,10 +57,38 @@
 /* //////////////////// FIN NAV BAR ////////////////////////// */
 
 
+/* //////////////////// IMAGEN GRANDE CON TEXTO ////////////////////////// */
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+ 
+.texto-img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #482164;
+  
+}
+
+.imagen-morada{
+    filter: opacity(40%);
+}
+
+
+/* //////////////////// IMAGEN GRANDE CON TEXTO ////////////////////////// */
+
+
+
+
+
 /* //////////////////// INICIO BODY ////////////////////////// */
 
 .body3 {
-    background-color: rgba(114, 62, 152, 0.9);
+    background-color: #723e98;
     color: white;
 }
 
@@ -152,11 +180,11 @@ i.fab {
   }
 
 .facebook .fab:hover {
-    color: #3b5998;
+    color: #723e98;
 }
 
 .twitter .fab:hover {
-    color: #00acee;
+    color: #723e98;
 }
 
 .widget ul {

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/registro.css">
+    <title>Registro</title>
+</head>
+<body>
+    <div class="form">
+      
+        <ul class="tab-group">
+          <li class="tab active"><a href="#signup">Registro</a></li>
+          <li class="tab"><a href="#login">Ingreso</a></li>
+        </ul>
+        
+        <div class="tab-content">
+          <div id="signup">   
+    
+<br>
+
+            <form action="/" method="post">
+            
+            <div class="top-row">
+              <div class="field-wrap">
+                <label>
+                  Nombres<span class="req">*</span>
+                </label>
+                <input type="text" required autocomplete="off" />
+              </div>
+          
+              <div class="field-wrap">
+                <label>
+                  Apellidos<span class="req">*</span>
+                </label>
+                <input type="text"required autocomplete="off"/>
+              </div>
+            </div>
+  
+            <div class="field-wrap">
+              <label>
+             Correo<span class="req">*</span>
+              </label>
+              <input type="email"required autocomplete="off"/>
+            </div>
+            
+            <div class="field-wrap">
+              <label>
+               Contraseña<span class="req">*</span>
+              </label>
+              <input type="password"required autocomplete="off"/>
+            </div>
+            
+            <button type="submit" class="button button-block"/>INGRESA</button>
+            
+            </form>
+  
+          </div>
+          
+          <div id="login">   
+
+            <br>
+            <br>
+            <br>
+            <br>
+
+            <h1>Bienvenido</h1>
+            
+
+            <form action="/" method="post">
+            
+              <div class="field-wrap">
+              <label>
+                Correo electrónico<span class="req">*</span>
+              </label>
+              <input type="email"required autocomplete="off"/>
+            </div>
+            
+            <div class="field-wrap">
+              <label>
+                Contraseña<span class="req">*</span>
+              </label>
+              <input type="password"required autocomplete="off"/>
+            </div>
+            
+            <p class="forgot"><a href="#">¿Olvidó la contraseña?</a></p>
+            
+            <button class="button button-block"/>Ingresar</button>
+            
+            </form>
+  
+          </div>
+          
+        </div><!-- tab-content -->
+        
+  </div> <!-- /form -->
+
+  <!--- Scrip --->
+  <script src="../javascript/registro.js"></script>
+</body>
+</html>
